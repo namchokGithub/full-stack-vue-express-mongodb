@@ -1,0 +1,30 @@
+{
+    "name": "full-stack-vue-express-mongodb",
+    "version": "1.0.0",
+    "description": "Full stack vue, expreess and mogodb",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "dev": "nodemon server/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/namchokGithub/full-stack-vue-express-mongodb.git"
+    },
+    "author": "Namchok",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/namchokGithub/full-stack-vue-express-mongodb/issues"
+    },
+    "homepage": "https://github.com/namchokGithub/full-stack-vue-express-mongodb#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mogodb": "0.0.1-security"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
