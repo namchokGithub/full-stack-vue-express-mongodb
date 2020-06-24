@@ -8,6 +8,10 @@ const app = express();
 app.use(bodyParse.json());
 app.use(cors());
 
-const port = process.env.PORT || 5001;
+const posts = require('./routes/api/posts');
+
+app.use('/api/posts', posts);
+
+const port = process.env.PORT || 5000;
 
 app.listen(port, () => console.log(`Server start on port ${port}, BearSoft Inc.`))
